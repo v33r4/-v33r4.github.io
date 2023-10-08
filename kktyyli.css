@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(177, 174, 190);
+    color: rgb(0, 0, 0);
+    font-family: 'Georgia';
+    text-align: center;
+    font-size: 22;
+}
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: #8255a3;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 40;
+}
+
+h2 {
+    color: rgb(27, 5, 48);
+    text-align: center;
+    font-size: 32;
+}
+
+table {
+    text-align: center;
+    table-layout: fixed;
+    font-size: 18;
+    color: #000000;
+    align-self: left;
+    float: center;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    align-self: center;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
